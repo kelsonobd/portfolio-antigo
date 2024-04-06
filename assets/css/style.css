@@ -735,6 +735,7 @@ header {
 
 
 /* RESPONSIVES */
+/*
 @media (min-width:413px) and (max-width: 700px) {
     .home-content {
         display: flex;
