@@ -169,9 +169,8 @@ header {
     /* IMAGEM PERFIL */
     margin-left: 10%;
     padding: 10%;
-    max-width: 500px;
-    height: 500px;
-    width: 100%;
+    max-width: 700px;
+    max-height: 700px;
     border-radius: 8px;
 }
 
@@ -740,42 +739,64 @@ header {
     }
 }
 
-/*
-
-    .home {
-   
-    .main-text h2 {
-        font-size: 40px;
-        margin-top: 30px;
+@media screen and (max-width: 1516px) and (min-width: 1120px){
+    .home{
+        background-position: right;
     }
-
-    .portfolio-content {
-        padding: 25px 10px;
+    .about .about-img img{
+        height: 500px;
+        width: 500px;
     }
-
-    .contact-text h2 {
+    .about .about-text h2 {
         font-size: 50px;
-        margin-bottom: 50px;
+    }
+    .about .about-text p {
+        width: 600px;
+        padding-right: 10%;
+    }
+    
+    .sub-title {
+        font-size: 50px;
+    }
+    .main-text h2{
+        font-size: 50px;
+    }
+    .contact-text h2{
+        font-size: 50px;
     }
 
-    .contact-text p {
-        font-size: 16px;
-        margin-bottom: 20px;
     }
 
-    .contact-icons i {
-        margin: 20px 10px;
+    @media screen and (max-width: 1119px) {
+        .home{
+            background-position: right;
+        }
+        .about{
+            display:flex;
+            flex-direction: column;
+        }
+        .about {
+            padding-top: 200px;
+           text-align: center;
+            
+           
+        }
+        .about-img img {
+            position: relative;
+            width: 300px;
+        }
+        .about-text h2 {
+            font-size: 50px;
+            position: absolute;
+           margin-left: 277px;
+            
+            margin-top: -400px; /* ajuste conforme necessário */
+        }
+        .sub-title{
+            font-size: 50px;
+        }
+        .habilities{
+            margin-left: -100px;
+           
+        }
     }
-
-    .last-text p {
-        padding: 15px 0;
-        font-size: 14px;
-    }
-
-    .top {
-        bottom: 1rem;
-        right: 1rem;
-    }
-}
-
-/* Estilos para dispositivos móveis */
