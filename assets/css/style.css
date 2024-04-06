@@ -306,11 +306,11 @@ header {
 }
 
 .progress-line.typescript span {
-    width: 10%;
+    width: 1%;
 }
 
 .progress-line.react span {
-    width: 10%;
+    width: 1%;
 }
 
 .progress-line span::after {
@@ -432,25 +432,25 @@ header {
 
     /* PORCENTAGEM DOS CIRCULOS DE PROGRESSO */
     100% {
-        stroke-dashoffset: 50;
+        stroke-dashoffset: 0;
     }
 }
 
 @keyframes animate-path2 {
     100% {
-        stroke-dashoffset: 175;
+        stroke-dashoffset: 80;
     }
 }
 
 @keyframes animate-path3 {
     100% {
-        stroke-dashoffset: 125;
+        stroke-dashoffset: 80;
     }
 }
 
 @keyframes animate-path4 {
     100% {
-        stroke-dashoffset: 75;
+        stroke-dashoffset: 50;
     }
 }
 
@@ -483,8 +483,8 @@ header {
 /* INICIO SECTION PORTFOLIO */
 
 .main-text {
-    padding-top: 200px;
-    margin-bottom: 100px ;
+    padding-top: 180px;
+    margin-bottom: 150px ;
     margin-top: 200px;
 
 }
@@ -494,6 +494,7 @@ header {
     line-height: 1;
     text-align: center;
     margin-top: -18px;
+    margin-bottom: 70px;
 
 }
 
@@ -507,6 +508,8 @@ header {
     gap: 40px;
     margin-bottom: 50px ;
     margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     
 }
 
@@ -578,7 +581,7 @@ header {
 /* FIM SECTION PORTFOLIO */
 
 /* AREA DE CONTATO */
-.contact {}
+
 
 .contact-text {
     padding: ;
@@ -589,7 +592,7 @@ header {
 }
 
 .contact-text h2 {
-    font-size: 70px;
+    font-size: 60px;
     line-height: 1;
     text-align: center;
     margin-bottom: 100px;
