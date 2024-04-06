@@ -40,7 +40,7 @@ header {
 .navbar a {
     /* BARRA DE NAVEGACÃO */
     display: inline-block;
-    font-size: 25px;
+    font-size: 17px;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
@@ -167,7 +167,8 @@ header {
 
 .about-img img {
     /* IMAGEM PERFIL */
-    margin-left: 200px;
+    margin-left: 10%;
+    padding: 10%;
     max-width: 500px;
     height: 500px;
     width: 100%;
@@ -192,8 +193,8 @@ header {
 }
 
 .about-text p {
-    color: aliceblue;
-    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
     line-height: 1.4;
     margin-bottom: 4rem;
     width: 760px;
@@ -215,14 +216,15 @@ header {
 .habilities {
     height: ;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .container1 {
     width: 600px;
     height: 500px;
     padding: 75px 90px;
-    margin-left: 180px;
+    margin-left: 100px;
+    margin-top: -70px;
 }
 
 
@@ -481,7 +483,8 @@ header {
 /* INICIO SECTION PORTFOLIO */
 
 .main-text {
-    padding: 250px 0px;
+    padding-top: 200px;
+    margin-bottom: 100px ;
     margin-top: 200px;
 
 }
@@ -490,7 +493,7 @@ header {
     font-size: 60px;
     line-height: 1;
     text-align: center;
-    margin-top: 50px;
+    margin-top: -18px;
 
 }
 
@@ -501,9 +504,10 @@ header {
 .portfolio-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
-    padding: 25px 50px;
     gap: 40px;
-    margin-top: 40px;
+    margin-bottom: 50px ;
+    margin-top: 50px;
+    
 }
 
 .row {
@@ -733,100 +737,42 @@ header {
     }
 }
 
-
-/* RESPONSIVES */
 /*
-@media (min-width:413px) and (max-width: 700px) {
-    .home-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        max-width: 600px;
+
+    .home {
+   
+    .main-text h2 {
+        font-size: 40px;
+        margin-top: 30px;
     }
 
-    .about {
-        margin-top: 100px;
-        display: flex;
-        flex-direction: ;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+    .portfolio-content {
+        padding: 25px 10px;
     }
 
-    .about .about-img img {
-        width: 100%;
-        height: 400px;
-        margin-right: 80px;
-        margin-left: 80px;
-        margin-top: 80px;
-    }
-
-    .about-text h2 {
-        font-size: 45px;
+    .contact-text h2 {
+        font-size: 50px;
         margin-bottom: 50px;
-
     }
 
-    .about-text p {
-        padding-left: 60px;
-        padding-right: 50px;
-        
+    .contact-text p {
+        font-size: 16px;
+        margin-bottom: 20px;
     }
 
-    .sub-title {
-        font-size: 45px;
-        text-align: center;
+    .contact-icons i {
+        margin: 20px 10px;
     }
 
-    .container1 {
-        padding: 0px;
-        margin-bottom: 200px;
-
+    .last-text p {
+        padding: 15px 0;
+        font-size: 14px;
     }
 
-    .technical-bars .bar .info span{
-        font-size: 30px;
-    }
-    .heading1 {
-        font-size: 23px;
-        margin-right: 90px;
-    }
-
-    .radial-bars {
-        flex-direction: column;
-        padding-right: 80px;
-        gap: 40px;
-    }
-
-    .radial-bars .radial-bar {
-        height: 200px;
-    }
-
-    .radial-bars .radial-bar svg {
-        height: 300px;
-        width: 200px;
-    }
-
-     .radial-bar .percentage {
-        font-size: 30px;
-    }
-    .radial-bar .text {
-        bottom: -25px;
-        font-size: 25px;
-    }
-    .main-text h2{
-        font-size: 45px;
-        margin-left: 30px;
-    }
-    .contact{
-        margin-top: -95px;
-    }
-    .contact h2 {
-        font-size: 45px;
-    }
-    .contact .contact-text p {
-       width: 300px;
-       text-align: center;
+    .top {
+        bottom: 1rem;
+        right: 1rem;
     }
 }
+
+/* Estilos para dispositivos móveis */
