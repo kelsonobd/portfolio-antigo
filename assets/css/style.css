@@ -739,8 +739,8 @@ header {
     }
 }
 
-@media screen and (min-width: 380px) and (max-width:400px){
-    .header nav {
+@media screen and (min-width: 370px) {
+        .header nav {
         display: none;
     }
     .home{
@@ -803,6 +803,7 @@ header {
         margin-left: -98px;
    }
   .container1 .technical-bars {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     margin-left: -160px;
