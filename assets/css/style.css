@@ -739,35 +739,115 @@ header {
     }
 }
 
-@media screen and (max-width: 1516px) and (min-width: 1120px){
+@media screen and (min-width: 380px) and (max-width:400px){
+    .header nav {
+        display: none;
+    }
     .home{
-        background-position: right;
+        text-align: center;
+        
+
+    }
+    .home .home-content h1{
+        font-size: 40px ;
+    }
+    .home .home-content h3{
+        font-size: 25px;
+
+    }
+    .home .home-content .home-sci {
+        margin-bottom: 10px;
+    }
+    .about{
+         display: flex;
+         flex-direction: column;
+         
+    }
+    .about .about-img { display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:110px;
+        
     }
     .about .about-img img{
-        height: 500px;
-        width: 500px;
+        height: auto;
+        width: 100%;
+         margin-right: 150px;
     }
     .about .about-text h2 {
         font-size: 50px;
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 1.2rem;
     }
     .about .about-text p {
-        width: 600px;
-        padding-right: 10%;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: justify;
     }
     
     .sub-title {
         font-size: 50px;
     }
-    .main-text h2{
-        font-size: 50px;
-    }
-    .contact-text h2{
-        font-size: 50px;
-    }
+   .habilities {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    margin-bottom: 700px;
+   }
+  .container1 .heading1{
+    display:inline-flex;
+  }
+    .container1 h2 {
+        margin-left: -98px;
+   }
+  .container1 .technical-bars {
+    display: flex;
+    flex-direction: column;
+    margin-left: -160px;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+  .container1 .radial-bars{
+    display: flex;
+    flex-direction: column;
+    margin-left: -205px;
+  }
+  .container1 .radial-bars .radial-bar {
+    margin-top: 20px;
+  }
+  .container1 .radial-bars .radial-bar svg{
+    width: 200px;
+    margin-bottom: 200px; 
+  }
+  .container1 .radial-bars .radial-bar .percentage {
+    font-size: 25px;
+  }
+  .container1 .radial-bars .radial-bar .text {
+    margin-top: 20px;
+    font-size:17px;
+  }
+  .main-text {
+    margin-top:  -200px;
+  }
 
-    }
+  .main-text h2 {
+    font-size: 50px;
+  }
 
-    @media screen and (max-width: 1119px) {
+  .main-text .portfolio-content{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+
+
+   }
+   
+    /*@media screen and (max-width: 1119px) {
         .home{
             background-position: right;
         }
@@ -790,13 +870,4 @@ header {
             position: absolute;
            margin-left: 277px;
             
-            margin-top: -400px; /* ajuste conforme necessário */
-        }
-        .sub-title{
-            font-size: 50px;
-        }
-        .habilities{
-            margin-left: -100px;
-           
-        }
-    }
+  
