@@ -804,6 +804,7 @@ header {
         display: flex;
         justify-content: center;
         text-align: center;
+        
     }
 
     .habilities {
@@ -811,10 +812,12 @@ header {
         flex-direction: column;
         gap: 150px;
         margin-bottom: 700px;
+        margin-top: 100px;
     }
 
     .container1 {
         width: auto;
+        
     }
 
     .container1 .heading1 {
@@ -865,11 +868,12 @@ header {
         justify-content: center;
         white-space: nowrap;
         font-size: 15px;
+        
 
     }
 
-    .main-text {
-        padding-top: 0px;
+    .projetos{
+        padding-top: 70%;
 
     }
 
@@ -883,9 +887,6 @@ header {
 
     }
 }
-
-
-
 
 
 
@@ -918,7 +919,7 @@ header {
     .about {
         display: flex;
         flex-direction: column;
-        margin-bottom: 20%;
+        margin-bottom: -50%;
 
     }
 
@@ -962,7 +963,7 @@ header {
         display: flex;
         flex-direction: column;
         margin-bottom: 150px;
-        padding-top: 10%;
+        padding-top: 20%;
     }
 
     .container1 {
