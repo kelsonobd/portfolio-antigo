@@ -169,8 +169,8 @@ header {
     /* IMAGEM PERFIL */
     margin-left: 10%;
     padding: 10%;
-    max-width: 700px;
-    max-height: 700px;
+    max-width: 100%;
+    max-height: auto;
     border-radius: 8px;
 }
 
@@ -196,7 +196,7 @@ header {
     font-size: 18px;
     line-height: 1.4;
     margin-bottom: 4rem;
-    width: 760px;
+    width: auto;
 }
 
 /* FIM SECTION SOBRE MIM */
@@ -483,7 +483,7 @@ header {
 
 .main-text {
     padding-top: 180px;
-    margin-bottom: 150px ;
+    margin-bottom: 150px;
     margin-top: 200px;
 
 }
@@ -505,11 +505,11 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
     gap: 40px;
-    margin-bottom: 50px ;
+    margin-bottom: 50px;
     margin-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    
+
 }
 
 .row {
@@ -739,149 +739,311 @@ header {
     }
 }
 
-@media screen and (min-width: 370px){
-        .header nav {
+@media screen and (min-width: 260px) and (max-width: 600px) {
+    .header nav {
         display: none;
     }
-    .home{
+
+    .home {
+        display: flex;
+        justify-content: center;
         text-align: center;
-        
+        background-position: left;
+    }
+
+
+    .home .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home .home-content h3 {
+        font-size: 20px;
 
     }
-    .home .home-content h1{
-        font-size: 40px ;
-    }
-    .home .home-content h3{
-        font-size: 25px;
 
-    }
     .home .home-content .home-sci {
         margin-bottom: 10px;
     }
-    .about{
-         display: flex;
-         flex-direction: column;
-         
+
+    .about {
+        display: flex;
+        flex-direction: column;
+
     }
-    .about .about-img { display: flex;
+
+    .about .about-img {
+        display: flex;
         justify-content: center;
         align-items: center;
-        margin-left:110px;
-        
+        margin-left: 110px;
+
     }
-    .about .about-img img{
+
+    .about .about-img img {
         height: auto;
         width: 100%;
-         margin-right: 150px;
+        margin-right: 150px;
     }
+
     .about .about-text h2 {
         font-size: 50px;
         text-align: center;
         margin-top: -30px;
         margin-bottom: 1.2rem;
     }
+
     .about .about-text p {
         width: 100%;
         padding-right: 20px;
         padding-left: 20px;
         text-align: justify;
     }
-    
+
     .sub-title {
-        font-size: 50px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
-   .habilities {
-    display: flex;
-    flex-direction: column;
-    gap: 150px;
-    margin-bottom: 700px;
-   }
-   .container1 {
-    width: auto;
-   }
-  .container1 .heading1{
-    
-    white-space: nowrap;
-    font-size: 20px;
-  }
+
+    .habilities {
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+        margin-bottom: 700px;
+    }
+
+    .container1 {
+        width: auto;
+    }
+
+    .container1 .heading1 {
+        display: flex;
+        justify-content: center;
+        white-space: nowrap;
+        font-size: 20px;
+    }
+
     .container1 h2 {
         margin-left: -98px;
-   }
-  .container1 .technical-bars {
-    
-    display: flex;
-    flex-direction: column;
-    margin-left: -160px;
-    padding-left: 10px;
-    padding-right: 10px;
-   }
+    }
 
-  .container1 .radial-bars{
-    display: flex;
-    flex-direction: column;
-    margin-left: -50px;
-    
-  }
-  .container1 .radial-bars .radial-bar {
-    margin-top: 20px;
-  }
-  .container1 .radial-bars .radial-bar svg{
-    width: 200px;
-    
-    margin-bottom: 200px; 
-  }
-  .container1 .radial-bars .radial-bar .percentage {
-    font-size: 25px;
-  }
-  .container1 .radial-bars .radial-bar .text {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    white-space: nowrap;
-    font-size:15px;
-    
-  }
-  .main-text {
-    padding-top: 0px;
-    
-  }
+    .container1 .technical-bars {
 
-  .main-text h2 {
-    font-size: 50px;
-  }
+        display: flex;
+        flex-direction: column;
+        margin-left: -160px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-  .main-text .portfolio-content{
-    display: flex;
-    flex-direction: column;
+    .container1 .radial-bars {
+        display: flex;
+        flex-direction: column;
+        margin-left: -50px;
 
-  }
+    }
+
+    .container1 .radial-bars .radial-bar {
+        height: 180px;
+
+    }
+
+    .container1 .radial-bars .radial-bar svg {
+        height: 200px;
+        width: 150px;
+
+    }
+
+    .container1 .radial-bars .radial-bar .percentage {
+        font-size: 25px;
+    }
+
+    .container1 .radial-bars .radial-bar .text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        white-space: nowrap;
+        font-size: 15px;
+
+    }
+
+    .main-text {
+        padding-top: 0px;
+
+    }
+
+    .main-text h2 {
+        font-size: 50px;
+    }
+
+    .main-text .portfolio-content {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
 
 
 
 
-   }
-   
-    /*@media screen and (max-width: 1119px) {
-        .home{
-            background-position: right;
-        }
-        .about{
-            display:flex;
-            flex-direction: column;
-        }
-        .about {
-            padding-top: 200px;
-           text-align: center;
-            
-           
-        }
-        .about-img img {
-            position: relative;
-            width: 300px;
-        }
-        .about-text h2 {
-            font-size: 50px;
-            position: absolute;
-           margin-left: 277px;
-            
-  
+
+
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+    .header nav {
+        display: ;
+    }
+
+    .home {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background: none;
+    }
+
+
+    .home .home-content h1 {
+        font-size: 50px;
+    }
+
+    .home .home-content h3 {
+        font-size: 35px;
+
+    }
+
+    .home .home-content .home-sci {
+        margin-bottom: 10px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .about .about-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .about .about-img img {
+        height: auto;
+        width: 100%;
+
+    }
+
+    .about .about-text h2 {
+        font-size: 55px;
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 1.2rem;
+    }
+
+    .about .about-text p {
+        max-width: 700px;
+        padding-right: 10%;
+        padding-left: 10%;
+        text-align: justify;
+    }
+
+    .sub-title {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: -130px;
+    }
+
+    .habilities {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+        padding-top: 10%;
+    }
+
+    .container1 {
+        width: auto;
+        margin-bottom: 200px;
+    }
+
+    .container1 .heading1 {
+        display: flex;
+        justify-content: center;
+        white-space: nowrap;
+        font-size: 20px;
+    }
+
+    .container1 h2 {
+        margin-left: -98px;
+        font-size: 55px;
+    }
+
+    .container1 .technical-bars {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: -90px;
+
+    }
+
+    .container1 .radial-bars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -60px;
+    }
+
+    .radial-bars .radial-bar {
+        width: 50%;
+        height: 170px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .radial-bars .radial-bar svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-90deg);
+        width: 120px;
+        height: 160px;
+    }
+
+    .container1 .radial-bars .radial-bar .percentage {
+        font-size: 25px;
+    }
+
+    .container1 .radial-bars .radial-bar .text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        white-space: nowrap;
+        font-size: 15px;
+
+    }
+
+    .main-text {
+        padding-top: 0px;
+        margin-top: -150px;
+
+    }
+
+    .main-text h2 {
+        font-size: 55px;
+    }
+
+    .main-text .portfolio-content {
+        display: flex;
+        flex-direction: column;
+        padding-right: 5%;
+    }
+
+    .main-text .portfolio-content img {
+        width: 100%;
+        height: auto;
+
+    }
+}
