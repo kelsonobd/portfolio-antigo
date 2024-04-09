@@ -889,7 +889,7 @@ header {
 
 
 
-@media screen and (min-width: 601px) and (max-width: 1023px) {
+@media screen and (max-width: 870px) {
     .header nav {
         display: ;
     }
@@ -918,6 +918,7 @@ header {
     .about {
         display: flex;
         flex-direction: column;
+        margin-bottom: 20%;
 
     }
 
