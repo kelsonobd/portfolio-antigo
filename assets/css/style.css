@@ -804,6 +804,7 @@ header {
         display: flex;
         justify-content: center;
         text-align: center;
+        padding-top: 70%;
         
     }
 
@@ -812,7 +813,7 @@ header {
         flex-direction: column;
         gap: 150px;
         margin-bottom: 700px;
-        margin-top: 100px;
+        margin-top: 30px;
     }
 
     .container1 {
@@ -873,7 +874,7 @@ header {
     }
 
     .projetos{
-        padding-top: 70%;
+        padding-top: 100%;
 
     }
 
@@ -892,7 +893,7 @@ header {
 
 @media screen and (max-width: 870px) {
     .header nav {
-        display: ;
+        display: none;
     }
 
     .home {
