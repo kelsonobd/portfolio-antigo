@@ -162,7 +162,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 1.5rem;
+    gap: ;
 }
 
 .about-img img {
@@ -173,6 +173,7 @@ header {
     max-height: auto;
     border-radius: 8px;
 }
+
 
 .about-text h2 {
     margin-bottom: 50px;
@@ -193,10 +194,11 @@ header {
 
 .about-text p {
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 25px;
     line-height: 1.4;
     margin-bottom: 4rem;
     width: auto;
+    padding-right: 10%;
 }
 
 /* FIM SECTION SOBRE MIM */
