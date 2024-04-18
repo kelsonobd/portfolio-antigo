@@ -548,13 +548,15 @@ header {
 
 .layer h5 {
     color: #000;
-    font-size: 600;
+    font-size: 40px;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
 .layer p {
     color: #000;
-    font-size: 1rem;
+    font-size: 17px;
+    font-weight: 600;
     line-height: 1.8;
 
 }
